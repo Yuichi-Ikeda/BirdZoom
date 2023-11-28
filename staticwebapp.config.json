@@ -1,5 +1,5 @@
 {
     "routes" : [
-      { "route" : "/test.html" , "rewrite" : "/test" }
+      { "route" : "/test.html" , "redirect" : "/test" }
     ]
 }
