@@ -1,5 +1,6 @@
 {
     "routes" : [
-      { "route" : "test.html" , "redirect" : "test" }
+      { "route" : "test.html" , "redirect" : "test" },
+      { "route" : "index.html" , "redirect" : "index" }
     ]
 }
