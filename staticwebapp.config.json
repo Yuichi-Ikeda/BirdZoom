@@ -1,5 +1,9 @@
 {
     "routes" : [
-      { "route" : "/test.html" , "redirect" : "/test" }
+      {
+        "route": "/(.*)\\.html",
+        "redirect": "/$1",
+        "statusCode": 301
+      }
     ]
 }
